@@ -10,11 +10,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:Eng-Eradah/amet.git master:master
+git push -f git@github.com:Eng-Eradah/amet.git master:gh-pages
 cd -
-"scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
-},
